@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-global_limit = 8657
+global_limit = 5093
 
 
 @app.route('/numbers', methods=['POST'])
