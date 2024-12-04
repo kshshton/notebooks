@@ -1,5 +1,5 @@
 # Example of use:
-# limit = FIND_LIMIT(url, max_value, timeout, **parameters)
+# limit = FIND_LIMIT(url, max_value, timeout, limit_parameter_name, **parameters)
 
 class FIND_LIMIT:
     def __init__(
